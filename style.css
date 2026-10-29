@@ -664,6 +664,11 @@ color:var(--muted)}
   border-color:#d4e8b5;
 color:#4c6d22}
 
+.pill-done {
+  background:#008106;
+  border-color:#008d00;
+color:#ffffff}
+
 .timeline-date {
   font:.63rem "DM Mono",monospace;
   letter-spacing:.06em;
