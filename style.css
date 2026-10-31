@@ -487,6 +487,15 @@ background:#e8e5fa}
   color:#625d91;
 background:#f8f7ff}
 
+.team-card:nth-child(3) .avatar {
+background:#fae5e5}
+
+.team-card:nth-child(3) .avatar span {
+  border-color:#dfa1a1;
+  color:#8d4d4d;
+background:#fff7f7}
+
+
 .team-info {
 padding:22px}
 
