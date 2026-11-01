@@ -901,3 +901,132 @@ white-space:nowrap}
   transition:none!important}
 
 }
+
+.report-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #547b20;
+  background: #f3f7eb;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #d4e8b5;
+  transition: all 0.2s ease;
+}
+
+.report-link:hover {
+  background: #d4e8b5;
+  color: #3b5616;
+}
+
+.report-section {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+
+.report-container {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.report-step {
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.015);
+}
+
+.report-step h3 {
+  color: var(--deep);
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed var(--line);
+  padding-bottom: 10px;
+}
+
+.report-step h4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  margin: 25px 0 10px;
+}
+
+.report-step p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.report-step p strong {
+  color: var(--ink);
+}
+
+.evidence-box {
+  background: #fff8e1;
+  border-left: 4px solid #ffc107;
+  padding: 15px 20px;
+  border-radius: 0 10px 10px 0;
+  font-size: 0.9rem;
+  color: #5d4a13;
+  margin-top: 15px;
+}
+
+.question-list {
+  background: var(--lilac);
+  padding: 20px 20px 20px 40px;
+  border-radius: 12px;
+  margin: 15px 0;
+  color: #4f4b85;
+}
+
+.question-list li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.question-list li:last-child {
+  margin-bottom: 0;
+}
+
+.report-step ul:not(.question-list) {
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.report-step ul:not(.question-list) li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.evidence-placeholder {
+  background: #f7f9f3;
+  border: 2px dashed #c7d2c0;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #7a877e;
+  font-style: italic;
+}
+
+.evidence-placeholder img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 15px;
+  display: block;
+}
+
+@media(max-width: 768px) {
+  .report-step {
+    padding: 25px 20px;
+  }
+  .question-list {
+    padding: 15px 15px 15px 30px;
+  }
+}
