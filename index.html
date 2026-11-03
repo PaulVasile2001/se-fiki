@@ -36,12 +36,13 @@
         <div class="hero-meta">
           <div><span class="meta-label">PROJECT</span><strong>Startup Helper</strong></div>
           <div><span class="meta-label">TEAM SIZE</span><strong>3 members</strong></div>
-          <div><span class="meta-label">CURRENT STAGE</span><strong>Customer Discovery (M2)</strong></div>
+          <div><span class="meta-label">CURRENT STAGE</span><strong>Wireframe and Landing Page (M3)</strong></div>
         </div>
       </div>
       <div class="hero-art" aria-label="Illustration representing people connecting around a startup idea">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="connector connector-one"></div><div class="connector connector-two"></div>
+        <svg class="connection-triangle" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M20 30 L80 34 L51 67 Z"></path>
+        </svg>
         <div class="person-node node-idea"><span class="node-symbol">✳</span><span class="node-label">THE IDEA</span></div>
         <div class="person-node node-build"><span class="node-avatar avatar-green">{"</>"}</span><span class="node-label">THE BUILDER</span></div>
         <div class="person-node node-grow"><span class="node-avatar avatar-lilac">↗</span><span class="node-label">THE NEXT STEP</span></div>
@@ -140,16 +141,16 @@
             <span class="timeline-date">DUE DATE: 19.10.26</span>
           </div>
         </article>
-        <article class="timeline-item is-current">
+        <article class="timeline-item">
           <div class="timeline-marker">02</div>
           <div class="timeline-content">
             <div class="timeline-heading"><h3>M2 · Validation 1 (idea)</h3><span class="pill pill-done">Done</span></div>
-            <p>Conduct customer discovery to validate the Startup Helper idea by identifying the target customer segments, understanding their challenges in finding co-founders and collaborators, gathering feedback through questionnaires and interviews, and evaluating whether the proposed solution addresses their needs.</p>
+            <p>Explore whether aspiring founders and people with complementary skills have recently struggled to find each other, what they have tried so far, and whether a matching platform could help. Early evidence is being collected through a questionnaire and exploratory interviews; more interviews and analysis are still needed before the idea can be considered validated.</p>
             <a class="report-link" href="#m2-report">Read the full M2 Report</a>
             <span class="timeline-date">DUE DATE: 02.11.26</span>
           </div>
         </article>
-        <article class="timeline-item"><div class="timeline-marker">03</div><div class="timeline-content"><div class="timeline-heading"><h3>M3 · [Milestone title]</h3><span class="pill">Upcoming</span></div><p>[Waiting for updates]</p><span class="timeline-date">DUE DATE: 09.11.26</span></div></article>
+        <article class="timeline-item is-current"><div class="timeline-marker">03</div><div class="timeline-content"><div class="timeline-heading"><h3>M3 · Wireframe and Landing Page</h3><span class="pill pill-current">In progress</span></div><p>Create wireframes that show the structure, key screens, and main interactions of Startup Helper. Add the wireframes to the Fiki and publish a landing page introducing the project, with a link to it included here.</p><span class="timeline-date">DUE DATE: 09.11.26</span></div></article>
         <article class="timeline-item"><div class="timeline-marker">04</div><div class="timeline-content"><div class="timeline-heading"><h3>M4 · [Milestone title]</h3><span class="pill">Upcoming</span></div><p>[Waiting for updates]</p><span class="timeline-date">DUE DATE: 16.11.26</span></div></article>
         <article class="timeline-item"><div class="timeline-marker">05</div><div class="timeline-content"><div class="timeline-heading"><h3>M5 · [Milestone title]</h3><span class="pill">Upcoming</span></div><p>[Waiting for updates]</p><span class="timeline-date">DUE DATE: 02.12.26</span></div></article>
         <article class="timeline-item"><div class="timeline-marker">06</div><div class="timeline-content"><div class="timeline-heading"><h3>M6 · [Milestone title]</h3><span class="pill">Upcoming</span></div><p>[Waiting for updates]</p><span class="timeline-date">DUE DATE: 07.12.26</span></div></article>
@@ -170,29 +171,32 @@
         
         <article class="report-step">
           <h3>1. Problem & Initial Solution</h3>
-          <p><strong>How we identified the problem:</strong> As university students, we noticed that many peers have great ideas but lack the technical skills to build them. Conversely, tech-savvy students often look for cool side projects but lack a concrete idea or business plan.</p>
-          <p><strong>What we thought is a solution:</strong> A matching platform where people can create profiles, share ideas, and find collaborators with complementary skills.</p>
+          <p><strong>Our starting problem hypothesis:</strong> Someone with an early-stage idea may not know where to find collaborators with the skills needed to move it forward. At the same time, people with useful skills may be interested in joining a project but lack a clear way to discover suitable opportunities. This came from our observations as students; it is a hypothesis, not yet a proven or widespread problem.</p>
+          <p><strong>Initial solution concept:</strong> A platform where people describe their skills, interests, and availability, while idea owners outline a project's goals and needs. Users could discover relevant profiles or projects and start a conversation. We have not established yet whether people need a dedicated platform, what information would make a match useful, or whether existing channels already work well enough.</p>
         </article>
 
         <article class="report-step">
           <h3>2. Customer Discovery Plan</h3>
-          <p>To validate this, we needed to test our core assumptions without pitching our product. Based on the <em>Mom Test</em>, we designed our interview guide to focus on <strong>past behavior</strong> and <strong>actual evidence</strong> rather than future intentions.</p>
+          <p>Our goal is to learn about people's real experiences before presenting the platform concept: whether they have recently looked for a collaborator or project, what they tried, and what happened. We want to speak with both idea owners and people with complementary skills, and keep the two perspectives distinct when reviewing the answers.</p>
           <div class="evidence-box">
-            <strong>Key Assumption tested:</strong> People actively try to find co-founders/collaborators but fail because existing platforms (like LinkedIn or Facebook groups) are not built for early-stage idea matching.
+            <strong>Key assumption to test:</strong> People in both groups have a recurring difficulty finding a suitable match and have tried specific workarounds that leave the need unresolved. The first interview also surfaced a separate possible need around finding startup guidance and funding opportunities; we will investigate that rather than assume it belongs in the matching product.
           </div>
+          <p>The first interview was exploratory. Some questions asked about intentions and preferences rather than a specific past event, so the next interviews will put more emphasis on concrete examples and actions already taken.</p>
         </article>
 
         <article class="report-step">
           <h3>3. Execution & Findings</h3>
-          <p><strong>Team effort:</strong> Paul Vasile, Poenaru Octavian, and Bogdan Rosetty reached out to 2 customer segments: <em>Aspiring Founders</em> (Business/Management students) and <em>Technical Builders</em> (Computer Science students).</p>
-          <p><strong>How we reached them:</strong> Face-to-face exploratory interviews on campus and a targeted Google Form distributed on specific student WhatsApp/Discord groups.</p>
-          
-          <h4>The Questions We Asked</h4>
+          <p><strong>Team effort and current status:</strong> Paul Vasile, Poenaru Octavian, and Bogdan Rosetty are working on customer discovery with two intended perspectives: <em>people with startup ideas</em> and <em>people with skills who might join a project</em>.</p>
+          <h4>Planned questions for upcoming interviews</h4>
+          <p>These are prompts for the conversations, and may vary based on the responses received.</p>
           <ul class="question-list">
-            <li><em>"Tell me about the last time you had a startup idea but couldn't execute it. What did you do?"</em></li>
-            <li><em>"How did you try to find a technical partner for that specific project?"</em></li>
-            <li><em>"What was the hardest part about working with someone you just met on a project?"</em></li>
-            <li><em>"How much time/money have you spent trying to solve this collaboration problem in the past?"</em></li>
+            <li><em>"Have you thought about starting your own startup? What was your latest idea?"</em></li>
+            <li><em>"How have you thought about validating that idea?"</em></li>
+            <li><em>"Tell me about the last time you tried to find a collaborator for a specific idea or project. What did you do?"</em></li>
+            <li><em>"Where did you look, and what happened?"</em></li>
+            <li><em>"What part of starting or joining a startup would be easier if it were automated?"</em></li>
+            <li><em>"What was difficult about the approach you tried, if anything?"</em></li>
+            <li><em>"For people looking to join a project: tell me about the last time you looked for one. How did you choose what to pursue?"</em></li>
           </ul>
 
           <div class="form-evidence">
@@ -226,16 +230,16 @@
               <div>
                 <p class="eyebrow">RECORDED CUSTOMER INTERVIEW</p>
                 <h4>Listen to the conversation.</h4>
-                <p>Interview with Octavian Poenaru about startup ideas, finding collaborators, and validating a business idea.</p>
+                <p>Octavian Poenaru interviews Teodor Potop about startup ideas, validation, joining a startup, and finding funding opportunities.</p>
               </div>
               <span class="interview-duration">AUDIO + TRANSCRIPT</span>
             </div>
             <div class="interview-grid">
               <div class="audio-card">
                 <span class="audio-icon" aria-hidden="true">♫</span>
-                <h5>Interview with Octavian</h5>
+                <h5>Interview with Teodor</h5>
                 <p>Use the player to listen to the full interview.</p>
-                <audio controls preload="metadata" aria-label="Interview with Octavian Poenaru">
+                <audio controls preload="metadata" aria-label="Interview conducted by Octavian Poenaru with Teodor Potop">
                   <source src="Interviu_O.mp4" type="video/mp4">
                   Your browser does not support audio playback.
                   <a href="Interviu_O.mp4">Download the interview recording</a>.
@@ -246,7 +250,7 @@
                 <ol class="transcript-lines">
                   <li><strong>Octavian Poenaru:</strong> Bună seara, eu sunt Poenaru Octavian și astăzi pentru materia de inginerie în startup, îl am lângă mine pe colegul meu, Potop Teodor.</li>
                   <li><strong>Teodor Potop:</strong> Salut.</li>
-                  <li><strong>Octavian Poenaru:</strong> Bună seara. Și astăzi o să-i acord câteva întrebări. Deci, în primul rând, ai idee ce este acela un startup?</li>
+                  <li><strong>Octavian Poenaru:</strong> Bună seara. Astăzi o să-i acord câteva întrebări. Deci, în primul rând, ai idee ce este acela un startup?</li>
                   <li><strong>Teodor Potop:</strong> Da.</li>
                   <li><strong>Octavian Poenaru:</strong> Poți să ne explici pe scurt?</li>
                   <li><strong>Teodor Potop:</strong> Startup-ul este o inițiativă în afaceri care are finanțare din partea unui program suplimentat de o instituție separată.</li>
@@ -274,13 +278,14 @@
 
         <article class="report-step">
           <h3>4. Impact on Our Product</h3>
-          <p>These insights directly affected our solution. We realized Startup Helper cannot just be a "Tinder for startups."</p>
-          <p><strong>Pivot/Changes:</strong> We are adding trust-building features to our platform: NDA templates, verified skill badges, and mandatory "Project Scope" fields so technical builders know exactly what is expected of them before they commit.</p>
+          <p><strong>What the early evidence suggests:</strong> The form responses describe different startup ideas and early validation approaches. In the recorded interview, Teodor described a business-consulting idea and said that finding relevant funding opportunities could be automated. He also expressed interest in joining a startup whose purpose aligned with his own idea. This points to possible needs around guidance and opportunity discovery, but it does not show that he has tried and failed to find a co-founder or that a matching platform would solve that problem.</p>
+          <p><strong>Product impact so far:</strong> We are not claiming a pivot or adding features based on this small sample. We are keeping collaborator matching as a hypothesis and sharpening the next round of discovery: test it separately with idea owners and potential contributors, and check whether funding or startup guidance is a distinct need. There is not yet evidence to prioritize features such as verified profiles or NDA templates.</p>
         </article>
 
         <article class="report-step">
-          <h3>5. Ready for Customer Validation?</h3>
-          <p><strong>Yes.</strong> We consider ourselves ready to move to the Customer Validation stage (testing selling/MVP). The problem is highly validated: people are experiencing this pain point, they have taken actual steps to try and solve it (posting in mismatched groups, attending networking events), and our modified solution directly addresses their trust and matching issues.</p>
+          <h3>5. Progressing Toward Customer Validation</h3>
+          <p><strong>Current stage:</strong> We are building an initial understanding of the people we want to serve and the challenges they may face. The four form responses and exploratory interview have given us useful starting points, including different approaches to developing and validating ideas, interest in joining a startup, and a possible need for help finding relevant funding opportunities. These early signals help us decide what to explore next; they are not yet enough to confirm which need should shape the product.</p>
+          <p><strong>Next step:</strong> Continue the planned interviews with people who have startup ideas and people who may want to contribute their skills. We will focus on specific experiences—what they needed, where they looked, what they tried, and what was still missing—and compare the patterns across both perspectives. We can then refine the product concept and prepare a simple prototype or matching-flow walkthrough to gather feedback before making decisions about an MVP. This is a normal part of the customer-discovery process: learning early gives us a stronger basis for building something people may genuinely find useful.</p>
         </article>
 
       </div>
