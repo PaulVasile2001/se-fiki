@@ -34,3 +34,8 @@ loadTranscript(
   "interviews/Transcript%20Interviu%20Teodor.txt",
   document.getElementById("teodor-transcript")
 );
+
+loadTranscript(
+    "interviews/Transcript%20Interviu%20Tudor.txt",
+    document.getElementById("tudor-transcript")
+);
