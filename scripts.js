@@ -39,3 +39,8 @@ loadTranscript(
     "interviews/Transcript%20Interviu%20Tudor.txt",
     document.getElementById("tudor-transcript")
 );
+
+loadTranscript(
+    "interviews/Transcript%20Interviu%20Tudor%20M4.txt",
+    document.getElementById("tudor-transcript-m4")
+)

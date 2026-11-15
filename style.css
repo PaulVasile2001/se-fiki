@@ -1235,3 +1235,43 @@ white-space:nowrap}
 
   .wireframe-grid { grid-template-columns: 1fr; }
 }
+
+/* Milestone 4 lists */
+#m4-ux ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#m4-ux ul li {
+  position: relative;
+  padding: 14px 18px 14px 42px;
+  background-color: #f5f7f2;
+  border: 1px solid #e3e9df;
+  border-radius: 8px;
+  color: #3d493d;
+  line-height: 1.6;
+  transition: all 0.2s ease;
+}
+
+#m4-ux ul li::before {
+  content: "·";
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+#m4-ux ul li:hover {
+  background-color: #edf3e9;
+  border-color: #b9cdb3;
+  transform: translateX(4px);
+}
+
+#m4-ux ul li strong {
+  color: #304c32;
+}
